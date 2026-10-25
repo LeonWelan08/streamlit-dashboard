@@ -57,11 +57,6 @@ div[role="radiogroup"] label:hover {
     padding: 10px !important; /* Mengecilkan padding agar kotak jadi ramping */
 }
 
-/* Menghilangkan background putih yang memaksa dari bawaan Streamlit */
-[data-testid="stFileUploader"] section * {
-    background-color: transparent !important;
-}
-
 /* Tombol Upload di dalamnya dibuat lebih tegas */
 [data-testid="stFileUploader"] button {
     background-color: #1f77b4 !important; /* Warna kancing Pink */
