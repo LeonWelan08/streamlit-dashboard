@@ -46,7 +46,7 @@ div[role="radiogroup"] label:hover {
 }
 
 /* ============================================== */
-/* 4. KUSTOMISASI KOTAK UPLOAD (KECIL & BERWARNA) */
+/* 4. KUSTOMISASI KOTAK UPLOAD */
 /* ============================================== */
 
 /* Wadah luar kotak upload (warna dasar, border, & ukuran) */
@@ -76,12 +76,6 @@ div[role="radiogroup"] label:hover {
 [data-testid="stFileUploader"] button:hover {
     background-color: #1E1E2F !important;
     color: white !important;
-}
-
-/* Teks tambahan bawahan Streamlit (Drag and drop file here / limit 200MB) dihilangkan agar kotak pendek */
-[data-testid="stFileUploader"] small,
-[data-testid="stFileUploader"] .stMarkdown {
-    display: none !important; 
 }
 
 /* ============================================== */
